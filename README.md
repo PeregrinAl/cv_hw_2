@@ -156,7 +156,7 @@ MaxLevel 0
 
 MaxLevel 2
 
-![compressed_mona_ml2_w5_ft25(1).gif](compressed_mona_ml2_w5_ft25%281%29.gif)
+![compressed_mona_ml2_w20_ft10(1).gif](compressed_mona_ml2_w20_ft10(1).gif)
 
 ## w - размер окна
 
@@ -227,6 +227,7 @@ Extra blur
 2. Rosten, E., Drummond, T. *Machine Learning for High-Speed Corner Detection*. ECCV, 2006.
 3. Canny, J. *A Computational Approach to Edge Detection*. IEEE TPAMI, 1986.
 4. OpenCV Documentation — [https://docs.opencv.org](https://docs.opencv.org)
+
 
 
 
