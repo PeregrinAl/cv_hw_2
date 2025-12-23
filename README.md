@@ -129,8 +129,7 @@
 
 ## **Наблюдения:**
 
-*
-*
+*Наблюдение аналогично предыдущему, но эффект "сжатия" бокса при повороте меньше
 
 
 ### 4.3. Тестовое видео: **mona-lisa-extra-blur**
@@ -183,5 +182,6 @@
 2. Rosten, E., Drummond, T. *Machine Learning for High-Speed Corner Detection*. ECCV, 2006.
 3. Canny, J. *A Computational Approach to Edge Detection*. IEEE TPAMI, 1986.
 4. OpenCV Documentation — [https://docs.opencv.org](https://docs.opencv.org)
+
 
 
