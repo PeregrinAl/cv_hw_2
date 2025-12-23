@@ -4,6 +4,7 @@
 
 ## 1. Цель работы
 
+
 Целью данной лабораторной работы является реализация простейшего алгоритма трекинга объекта на видео на основе ключевых точек с использованием классических методов компьютерного зрения.
 
 
@@ -146,8 +147,52 @@
 * ключевые точки упали в основном на лицо и руки
 * изменение перспективы не вызывает проблем с трекингом
 
+### 4.4. Сравнения параметров
+## ml - MaxLevel 
 
-### 4.4. Собственное видео
+MaxLevel 0
+
+![compressed_mona_ml0_w20_ft5(1).gif](compressed_mona_ml0_w20_ft5%281%29.gif)
+
+MaxLevel 2
+
+![compressed_mona_ml2_w5_ft25(1).gif](compressed_mona_ml2_w5_ft25%281%29.gif)
+
+## w - размер окна
+
+Окно 5
+
+![compressed_mona_ml2_w5_ft25(1).gif](compressed_mona_ml2_w5_ft25%281%29.gif)
+
+Окном 50
+
+![compressed_mona_ml2_w50_ft25(1).gif](compressed_mona_ml2_w50_ft25%281%29.gif)
+
+## ft - порог для FAST
+
+Порог 5
+
+![compressed_mona_ml0_w20_ft5(1).gif](compressed_mona_ml0_w20_ft5%281%29.gif)
+
+Порог 10
+
+![compressed_mona_ml2_w20_ft10(1).gif](compressed_mona_ml2_w20_ft10%281%29.gif)
+
+## blur
+
+Обычная
+
+![compressed_mona_ml2_w20_ft10(1).gif](compressed_mona_ml2_w20_ft10%281%29.gif)
+
+Blur
+
+![compressed_mona_blur_ml0_w20_ft10(1).gif](compressed_mona_blur_ml0_w20_ft10%281%29.gif)
+
+Extra blur
+
+![compressed_mona_extr_blur_ml0_w20_ft10(1).gif](compressed_mona_extr_blur_ml0_w20_ft10%281%29.gif)
+
+### 4.5. Собственное видео
 
 **Описание видео:**
 *Освещение равномерное, с глубокими тенями. Объект отличается от фона цветом, контраст и текстура плохо различимы. Вокруг объекта - контрастные предметы с четкими границами. Резкое движение и потеря объекта из области видимости в конце видео*
